@@ -1,5 +1,5 @@
-import React from 'react';
-import "../Navbar/style.css";
+import React from "react";
+import "../styles/Navbar.css";
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
 
@@ -10,7 +10,7 @@ import "../Navbar/style.css";
 
 const styles = {
   navbarStyle: {
-    background: "green",
+    background: "black",
     justifyContent: "flex-end"
   }
 };
@@ -20,15 +20,9 @@ const styles = {
 function Navbar() {
   return (
     <nav style={styles.navbarStyle} className="navbar">
-      <ul>
-        <li className="brand">
-          <a href="/">Clicky Game</a>
-        </li>
-        <li>You Guessed Incorrectly!</li>
-        <li>
-          Score:{this.state.score}
-        </li>
-      </ul>
+      <a href="/">Clicky Game</a>
+      <h4 style = {styles.headingStyle}>Click on an image !></h4>
+      <h4 style = {styles.headingStyle}>Points: !></h4>
     </nav>
   );
 }

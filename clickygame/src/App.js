@@ -1,29 +1,17 @@
-import React, { Component } from "react";
-import Card from "./components/Card";
+import React from "react";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Title from "./components/Title";
-import cards from "./cards.json";
+import Section from "./components/Section";
+import Navbar from "./components/Navbar";
 
-class App extends Component {
-  // Setting this.state.cards to the cards.json array
-  state = {
-    cards
-  };
-
-  render() {
-    return (
+function App() {
+  return (
+    <div>
+      <Navbar />
       <Header />
-      <Title />
-      {this.state.cards.map(card => (
-        <Cards
-          image={card.image}
-        />
-      ))
-    }
-    <Footer />
-    )
-  }
+      <Section />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
