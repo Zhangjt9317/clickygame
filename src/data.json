@@ -1,62 +1,82 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/beth.png",
+    "image": "/assets/images/Akuma.png",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "/assets/images/birdperson.png",
+    "image": "/assets/images/Arthur.png",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "/assets/images/evilmorty.png",
+    "image": "/assets/images/Blanka.png",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "/assets/images/gianthead.png",
+    "image": "/assets/images/Chris.png",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "/assets/images/goldenford.png",
+    "image": "/assets/images/Chunli.png",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "/assets/images/jerry.png",
+    "image": "/assets/images/Ken.png",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "/assets/images/jessica.png",
+    "image": "/assets/images/Light.png",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "/assets/images/meeseeks.png",
+    "image": "/assets/images/M.bison.png",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "/assets/images/morty.png",
+    "image": "/assets/images/Megaman.png",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "/assets/images/mr.png",
+    "image": "/assets/images/Morrigan.png",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "/assets/images/rick.png",
+    "image": "/assets/images/Proto.png",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "/assets/images/summer.png",
+    "image": "/assets/images/Ryu.png",
+    "clicked": false
+  },
+  {
+    "id": 13,
+    "image": "/assets/images/Sagat.png",
+    "clicked": false
+  },
+  {
+    "id": 14,
+    "image": "/assets/images/Wesker.png",
+    "clicked": false
+  },
+  {
+    "id": 15,
+    "image": "/assets/images/Wily.png",
+    "clicked": false
+  },
+  {
+    "id": 16,
+    "image": "/assets/images/Zangief.png",
     "clicked": false
   }
 ]
